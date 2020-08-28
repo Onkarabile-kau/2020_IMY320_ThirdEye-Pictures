@@ -8,7 +8,10 @@ down to view more information
 
 # Welcome Section
 
-https://user-images.githubusercontent.com/62009623/91618734-79b74000-e98b-11ea-8420-8a99d9e7f887.PNG
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/62009623/91618734-79b74000-e98b-11ea-8420-8a99d9e7f887.PNG" width="350" title="hover text">
+</p>
 
 This is the general idea of how the welcome section will look. It will be at the very top of the page with
 the title visible. Our theme for our website is mostly black (or dark colours) accompanied by white text.
