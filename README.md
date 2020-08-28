@@ -17,3 +17,12 @@ includes text or images. It will have a picture on the left-hand side to give a 
 website is about
 
 # About Section
+https://user-images.githubusercontent.com/62009623/91618899-f6e2b500-e98b-11ea-88d1-df4920ebab4d.PNG
+
+Once the user scrolls down, they will encounter this section. This section provides a brief explanation on
+what the website and the creators are about (us). This will provide an overview of the work we provide.
+We do not want to distract the users from knowing the purpose of all this so we opted for a simple and
+minimalistic design
+
+# Profile Section
+
