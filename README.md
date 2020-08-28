@@ -26,4 +26,4 @@ minimalistic design
 
 # Profile Section
 
-https://github.com/Onkarabile-kau/2020_IMY320_ThirdEye-Pictures/issues/3#issue-688383442
+https://user-images.githubusercontent.com/62009623/91619199-bafc1f80-e98c-11ea-8358-9db2c3c26831.PNG
