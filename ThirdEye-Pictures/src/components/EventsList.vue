@@ -51,12 +51,12 @@ export default {
         },
         {
           id: 3,
-          name: "Rescue Center Goods Drive",
-          category: "Adoptions",
+          name: "The Amazing App",
+          category: "Websites",
           description:
-            "Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.",
-          featuredImage: "https://placekitten.com/500/500",
-          images: ["https://placekitten.com/500/500"],
+            "The Amazing App is a mobile-app location based game in which the game for the mobile app is created using a website. A website is used to create the game then the game creators will send an invite code of the game to the team members. The game can be played in groups or a player can choose to play the game alone. The game is created with markers on the map where players have to physically visit in order to solve riddles and retrieve information then move on to the next level until all the markers placed by the creator have been visited. The team that solves all the riddles or that has retrieved information under the time frame specified by the creator will be the winners.",
+          featuredImage: "http://the-amazing-app-website.herokuapp.com/static/media/map.71750df1.jpg",
+          images: ["http://the-amazing-app-website.herokuapp.com/static/media/map.71750df1.jpg"],
           location: "1234 Dog Alley",
           date: "11-21-2019",
           time: "12:00"

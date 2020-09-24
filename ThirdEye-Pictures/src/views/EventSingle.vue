@@ -4,32 +4,21 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">{{ event.name }}</h1>
-          <h2 class="subtitle">
-            <strong>Date:</strong>
-            {{ event.date }}
-            <br />
-            <strong>Time:</strong>
-            {{ event.time }}
-          </h2>
         </div>
       </div>
     </section>
     <section class="event-content">
       <div class="container">
-        <p class="is-size-4 description">{{ event.description }}</p>
-        <p class="is-size-5">
-          <strong>Location:</strong>
-          {{ event.location }}
-        </p>
-        <p class="is-size-5">
-          <strong>Category:</strong>
-          {{ event.category }}
-        </p>
         <div class="event-images columns is-multiline has-text-centered">
           <div v-for="image in event.images" :key="image.id" class="column is-one-third">
             <img :src="`${image}`" :alt="`${event.name}`" />
           </div>
         </div>
+        <p class="is-size-4 description">{{ event.description }}</p>
+        <p class="is-size-5">
+          <strong>Category:</strong>
+          {{ event.category }}
+        </p>
       </div>
     </section>
   </div>
@@ -70,15 +59,18 @@ export default {
         },
         {
           id: 3,
-          name: "Rescue Center Goods Drive",
-          category: "Adoptions",
+          name: "The Amazing App",
+          category: "Websites",
           description:
-            "Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.",
-          featuredImage: "https://placekitten.com/500/500",
-          images: ["https://placekitten.com/500/500"],
-          location: "1234 Dog Alley",
-          date: "11-21-2019",
-          time: "12:00"
+            "The Amazing App is a mobile-app location based game in which the game for the mobile app is created using a website. A website is used to create the game then the game creators will send an invite code of the game to the team members. The game can be played in groups or a player can choose to play the game alone. The game is created with markers on the map where players have to physically visit in order to solve riddles and retrieve information then move on to the next level until all the markers placed by the creator have been visited. The team that solves all the riddles or that has retrieved information under the time frame specified by the creator will be the winners.",
+          featuredImage: "http://the-amazing-app-website.herokuapp.com/static/media/map.71750df1.jpg",
+          images: ["http://the-amazing-app-website.herokuapp.com/static/media/map.71750df1.jpg",
+          "http://the-amazing-app-website.herokuapp.com/static/media/back3.3ac2f525.jpg",
+          "http://the-amazing-app-website.herokuapp.com/static/media/logo.9d394f92.png"],
+          location: "",
+          date: "",
+          time: "",
+          background: "http://the-amazing-app-website.herokuapp.com/static/media/map.71750df1.jpg"
         },
         {
           id: 4,
