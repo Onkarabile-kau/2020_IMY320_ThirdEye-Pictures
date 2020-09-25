@@ -1,6 +1,6 @@
 <template>
   <div class="event-card">
-    <div class="card">
+    <div class="card" >
       <div class="card-content">
         <h2 class="is-size-4 has-text-weight-bold">{{ event.name }}</h2>
         <!--<small class="event-date">{{ event.date }}</small>-->
@@ -16,7 +16,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .card {
-  background-image: url("../assets/logo.jpeg");
+  background-image: url("https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   height: 200px;
   background-position: center;
   background-size: cover;

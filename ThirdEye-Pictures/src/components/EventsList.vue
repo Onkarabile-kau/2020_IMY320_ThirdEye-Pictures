@@ -85,7 +85,7 @@ export default {
         },
         {
           id: 6,
-          name: "The swift app",
+          name: "The Swift App",
           category: "Website",
           description:
             "Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.",

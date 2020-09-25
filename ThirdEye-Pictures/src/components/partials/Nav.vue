@@ -1,31 +1,35 @@
 <template>
-<nav class="navbar container" role="navigation" aria-label="main navigation">
+<nav class="navbarcontainer" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
+    <img src="../../assets/logo.jpeg" alt="logo" class="logo" />
     <a class="navbar-item" href="/">
       <strong class="is-size-4">ThirdEye Pictures</strong>
     </a>
+    <div id="navbar" class="navbar-menu">
+    <div class="navbar-start">
+      
+      <router-link to="/" class="navbar-item">Home</router-link>
+      <router-link to="/about" class="navbar-item">About</router-link>
+    </div>
+    <div class="navbar-end">
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div id="navbar" class="navbar-menu">
-    <div class="navbar-start">
-      <router-link to="/" class="navbar-item">Home</router-link>
-      <router-link to="/about" class="navbar-item">About</router-link>
-    </div>
-    <div class="navbar-end">
+  
       <div class="navbar-item">
-        <div class="buttons">
+        
+        <!--<div class="buttons">-->
           <!-- Check that the SDK client is not currently loading before accessing is methods -->
-          <div v-if="!$auth.loading">
+          <!--<div v-if="!$auth.loading">-->
             <!-- show login when not authenticated -->
-            <a v-if="!$auth.isAuthenticated" @click="login" class="button is-dark"><strong>Sign in</strong></a>
+            <!--<1<a v-if="!$auth.isAuthenticated" @click="login" class="button is-dark"><strong>Sign in</strong></a>-->
             <!-- show logout when authenticated -->
-            <a v-if="$auth.isAuthenticated" @click="logout" class="button is-dark"><strong>Log out</strong></a>
+            <!--<a v-if="$auth.isAuthenticated" @click="logout" class="button is-dark"><strong>Log out</strong></a>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
@@ -50,14 +54,19 @@ export default {
 </script>
 <style lang="scss" scoped>
   nav {
-    margin-top: 25px;
-    margin-bottom: 30px;
+    background-color: #2c3e50;
     a {
+      font-size: 30px;
       font-weight: bold;
-      color: #2c3e50;
+      color: #ffffff;
       &.router-link-exact-active {
         color: #d88d00;
+        font-size: 30px;
       }
     }  
-  } 
+  }
+  .logo {
+    width:200px;
+    height:150px;
+  }
 </style>

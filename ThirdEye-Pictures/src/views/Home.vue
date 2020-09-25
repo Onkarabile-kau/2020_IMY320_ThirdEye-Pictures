@@ -7,7 +7,6 @@
           Welcome to the ThirdEye pictures Project showcase !!         
         </h1>
         <h2 class="subtitle">
-          Make sure you check out our upcoming events below
         </h2>
         <div class="button-block">
           <!-- <button v-if="!$auth.isAuthenticated" @click="login" class="button is-xl is-dark">Sign Up to Browse Projects</button> 
@@ -38,7 +37,7 @@ export default {
 <style lang="scss" scoped>
   .hero {    
     text-align: center;
-    background-image: url('https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('../assets/tenor.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
