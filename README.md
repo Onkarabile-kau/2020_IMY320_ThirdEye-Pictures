@@ -15,6 +15,9 @@ Happiness |	Masombuka |	16324804
 
 
 Our website has a Home page which contains the landing screen as well as our project. When users click on the individual projects they will be redirected to a different page where they will be able to see more details about the projects. We also have an “About” page which gives users more information about our company.
+# Link to project
+
+https://onkarabile-kau.github.io/2020_IMY320_ThirdEye-Pictures/
 
 # Landing Screen:
 
