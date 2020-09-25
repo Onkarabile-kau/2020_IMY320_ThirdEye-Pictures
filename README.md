@@ -43,7 +43,7 @@ When users click on a project, they are redirected to a different page to get mo
 # About:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/62009623/94318491-fa685c80-ff88-11ea-885e-95414431a39b.png" title="hover text">
+  <img src="https://user-images.githubusercontent.com/62009623/94319322-a2caf080-ff8a-11ea-9b8e-a315ee09e6a5.png" title="hover text">
 </p>
 
 Our about page contains information about our company. We have a blue colour as well as a turquoise colour. This gives a sophisticated and refreshing look. The page is kept simple with to keep the users focus on the information. Some text elements are larger than others to create visual interest and not overwhelm users with information.
