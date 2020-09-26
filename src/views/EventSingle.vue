@@ -48,7 +48,7 @@ export default {
         },
         {
           id: 2,
-          name: "The Gaming centre",
+          name: "VFX – Whargharble",
           category: "Gaming",
           description:
             "Check out these IMY300 gaming projects at the following link below",
