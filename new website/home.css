@@ -28,7 +28,7 @@
 }
  section blockquote span {
 	 width: 100%;
-	 background: red;
+	 background: white;
 	 display: block;
 	 height: 5px;
 	 margin-top: 20px;
@@ -271,5 +271,11 @@
 		border-radius: 50%;
 	}
   
+  }
+
+  .myHyperlink {
+	  font-size: medium;
+	  color: black;
+	  font-weight: bold;
   }
  
