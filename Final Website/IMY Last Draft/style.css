@@ -738,9 +738,15 @@
                       cursor: pointer;
                       font-family: "Monument Extended";
                       text-transform: uppercase;
-                      font-weight: lighter;
+                      font-weight: bolder;
                       color: grey;
                       text-decoration: none;
                       float: right;
                   }
+
+.about {
+  padding-top: 10%;
+  text-align: center;
+  color: #233567;
+}
   
