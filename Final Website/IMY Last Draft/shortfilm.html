@@ -165,30 +165,23 @@ h2 {
         <div></div>
         <div></div>
         <div id="info"></div>
-        <div id="image1" class="img">
-            <img src="https://i1.wp.com/mm.up.ac.za/blog/wp-content/uploads/2019/11/5.png?resize=768%2C432" />
+        <div>
+            <video width="650" height="400" controls>
+                <source src="film/Trailer.mp4" type="video/mp4">
+            </video>
         <div> </div>
-        </div>
-        <div id="image2" class="img">
-            <img src="https://i1.wp.com/mm.up.ac.za/blog/wp-content/uploads/2019/11/Screen02.jpg?resize=768%2C432" />
-        </div>
-        <div id="image3" class="img">
-            <img src="https://i1.wp.com/mm.up.ac.za/blog/wp-content/uploads/2019/11/firstSlide.png?resize=768%2C418" />
-        </div>
-        <div id="image4" class="img">
-            <img src="https://i2.wp.com/mm.up.ac.za/blog/wp-content/uploads/2019/11/Screenshot-Main-Menu.png?resize=768%2C432" />
-        </div>
-        <div class="left" onclick="left()"></div>
-        <div class="right" onclick="right()"></div>
-        <div class="dots">
-            <div class="dot a1"></div>
-            <div class="dot a2"></div>
-            <div class="dot a3"></div>
-            <div class="dot a4"></div>
         </div>
        
     </div>
-    <div class = "moveToSide"> <h1 class="project">Gaming Project</h1>Description </div>
+    <div class = "moveToSide"> 
+        <h1 class="project">Hope Not Ever To See Heaven </h1>
+        <p>This short film that we created </p>
+        <p>is about a young man who notices strange things</p>
+        <p>happening in his new shared apartment,</p>
+        <p>and upon investigating, falls victim to</p>
+        <p>his flatmate's evil deeds.</p>
+
+    </div>
     </div>
     </div>
     </div>
@@ -267,7 +260,7 @@ h2 {
                 box2.style.opacity = 0;
                 box3.style.opacity = 0;
                 box4.style.opacity = 0;
-                info.innerHTML = "Subscribe to PewDiePie"
+                info.innerHTML = "Hope Not Ever To See Heaven - Trailer"
                 i++
             }
             else if (i == 1) {
@@ -275,24 +268,8 @@ h2 {
                 box2.style.opacity = 1;
                 box3.style.opacity = 0;
                 box4.style.opacity = 0;
-                info.innerHTML = "T&R – Veil of Chaos"
+                info.innerHTML = "Hope Not Ever To See Heaven - Full Film"
                 i++
-            }
-            else if (i == 2) {  
-                box1.style.opacity = 0;
-                box2.style.opacity = 0;
-                box3.style.opacity = 1;
-                box4.style.opacity = 0;
-                info.innerHTML = "SoloCorp – Void Runner"
-                i++
-            }
-            else if (i == 3) {
-                box1.style.opacity = 0;
-                box2.style.opacity = 0;
-                box3.style.opacity = 0;
-                box4.style.opacity = 1;
-                info.innerHTML = "Fun Games – The Last Line"
-                i = 0;
             }
         }
 
@@ -302,7 +279,7 @@ h2 {
                 box2.style.opacity = 0;
                 box3.style.opacity = 0;
                 box4.style.opacity = 1;
-                info.innerHTML = "Subscribe to PewDiePie"
+                info.innerHTML = "Hope Not Ever To See Heaven - Trailer"
                 i++
             }
             else if (i == 1) {
@@ -310,24 +287,8 @@ h2 {
                 box2.style.opacity = 0;
                 box3.style.opacity = 1;
                 box4.style.opacity = 0;
-                info.innerHTML = "T&R – Veil of Chaos"
+                info.innerHTML = "Hope Not Ever To See Heaven - Full Film"
                 i++
-            }
-            else if (i == 2) {
-                box1.style.opacity = 0;
-                box2.style.opacity = 1;
-                box3.style.opacity = 0;
-                box4.style.opacity = 0;
-                info.innerHTML = "SoloCorp – Void Runner"
-                i++
-            }
-            else if (i == 3) {
-                box1.style.opacity = 1;
-                box2.style.opacity = 0;
-                box3.style.opacity = 0;
-                box4.style.opacity = 0;
-                info.innerHTML = "Fun Games – The Last Line"
-                i = 0;
             }
         }
         const parentElement = document.getElementById('parent');
