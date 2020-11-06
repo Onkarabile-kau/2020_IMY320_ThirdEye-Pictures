@@ -657,6 +657,8 @@
           font-weight: 300;
           color: #233567;
           margin-bottom: 88px; }
+          .features .features-inner .features-content :hover {
+            color: #76d8aa;}
           @media (max-width: 1440px) {
             .features .features-inner .features-content p {
               padding-right: 60px; } }
@@ -752,4 +754,3 @@
   text-align: center;
   color: #233567;
 }
-  
