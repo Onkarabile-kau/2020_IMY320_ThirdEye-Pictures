@@ -280,6 +280,9 @@
   /*
      * Add the correct display in Edge, IE 10+, and Firefox.
      */
+  .line:hover{
+    color: #ea2c62;
+  }
   details {
     display: block; }
   
@@ -654,6 +657,8 @@
           font-weight: 300;
           color: #233567;
           margin-bottom: 88px; }
+          .features .features-inner .features-content :hover {
+            color: #76d8aa;}
           @media (max-width: 1440px) {
             .features .features-inner .features-content p {
               padding-right: 60px; } }
@@ -703,13 +708,13 @@
                   }
                   
                   .cursor {
-                      background-color: white;
+                      background-color: black;
                       border-radius: 100%;
                   }
                   
                   .follow {
                       padding: 2rem;
-                      border: 0.1rem solid white;
+                      border: 0.1rem solid black;
                       transition: all 0.2s ease-out;
                       border-radius: 100%;
                   }
@@ -738,9 +743,14 @@
                       cursor: pointer;
                       font-family: "Monument Extended";
                       text-transform: uppercase;
-                      font-weight: lighter;
+                      font-weight: bolder;
                       color: grey;
                       text-decoration: none;
                       float: right;
                   }
-  
+
+.about {
+  padding-top: 10%;
+  text-align: center;
+  color: #233567;
+}
