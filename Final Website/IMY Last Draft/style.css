@@ -280,6 +280,9 @@
   /*
      * Add the correct display in Edge, IE 10+, and Firefox.
      */
+  .line:hover{
+    color: #ea2c62;
+  }
   details {
     display: block; }
   
@@ -703,13 +706,13 @@
                   }
                   
                   .cursor {
-                      background-color: white;
+                      background-color: black;
                       border-radius: 100%;
                   }
                   
                   .follow {
                       padding: 2rem;
-                      border: 0.1rem solid white;
+                      border: 0.1rem solid black;
                       transition: all 0.2s ease-out;
                       border-radius: 100%;
                   }
